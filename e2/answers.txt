@@ -1,0 +1,17 @@
+1. In the hint above, what is the result of the calculation data['timestamp']*fit.slope + fit.intercept? What is the type, and describe the values. 
+
+	data['timestamp']*fit.slope + fit.intercept
+	y = mx + b
+	
+	This a prediction line which is the best fit line through our scatter plot of data that best expresses the relationship between those points. It is the red line in the graph. We can think of it as in y = mx+b wher y is our prediciton, m is our fit.slope and b is our fit.intercept. 
+	The type of column is series and each value is float64
+	
+
+2. In the same hint, why does this produce a fit line on the graph? Why are the created_at values and timestamp values paired correctly to make points on the plot?  
+
+
+	data['timestamp'] = data['created_at'].apply(to_timestamp).
+
+	They are paried correctly since every timestap value is computed by using the corresponding created_at value which both shares the same index. We can basically say that timestamp is the numeric verison of created_at. They are different types with different purposes. With all the correct value, panda scipy.stats.linregress function can create a linear regression for us.  
+
+

@@ -1,0 +1,89 @@
+Standard Deviation will be called SD
+
+For data-1.csv 
+	X 			Y
+	Mean: 8.717696		Mean: 12.522874
+	SD: 12.155517		SD: 6.639964
+	Range:			Range:
+		Min:-22.635878		Min:-2.565088		
+		Max:35.237055		Max:27.384153
+
+	Correlation coefficient 
+		between X and Y: 0.9503256954375482
+
+Description: Since correlation is close to 1 and positive, it shows that there is a strong,positive relationship between x and y where one variable increase, the other will increase as well.  
+
+					
+
+For data-2.csv 
+	X 			Y
+	Mean: -0.710787		Mean: -0.748987
+	SD: 11.481584		SD: 6.257918
+	Range:			Range:
+		Min:-33.271113		Min:-18.621804		
+		Max:27.647000		Max:14.147315
+
+	Correlation coefficient 
+		between X and Y: 0.9551531665750373
+
+Description: Since correlation is close to 1 and positive, it shows that there is a strong,positive relationship between x and y where one variable increase, the other will increase as well.  
+
+					
+For data-3.csv 
+	X 			Y
+	Mean: 0.968907		Mean: 8.508535
+	SD: 2.235558		SD: 1.149301
+	Range:			Range:
+		Min:-2.449064		Min:6.641734		
+		Max:4.518885		Max:10.551871
+
+	Correlation coefficient 
+		between X and Y: 0.9819372646760665
+
+Description: There is a strong, positie correlation but from the graph we can see that the points are forming 4 circle.
+
+For data-4.csv 
+	X 			Y
+	Mean: 49.905086		Mean: 18.553837
+	SD: 28.508611		SD: 16.545896
+	Range:			Range:
+		Min:0.000000		Min:0.000000	
+		Max:87.376700		Max:44.565040
+
+	Correlation coefficient 
+		between X and Y: -0.08119306735490815
+
+Description: The correlation is close to zero which means there is no relationship between x and y but we can see that it forms the logo of SFU
+					
+
+For data-2.csv 
+	X 			Y
+	Mean: 49.909994		Mean: 18.555525
+	SD: 28.500001		SD: 16.540796
+	Range:			Range:
+		Min:4.337892		Min:0.055498		
+		Max:91.052863		Max:49.934197
+
+	Correlation coefficient 
+		between X and Y: -0.08823598983058883
+
+Description: Since the correlation is close to 0, it shows that there are no relationship between x and y
+
+					
+For data-3.csv 
+	X 			Y
+	Mean: 7.216155		Mean: 7.602215
+	SD: 11.921599		SD: 11.764382
+	Range:			Range:
+		Min:-24.333821		Min:-22.956357		
+		Max:35.402139		Max:36.079874
+
+	Correlation coefficient 
+		between X and Y: 0.9350685662094905
+
+Description: Since correlation is close to 1 and only few outlier, it shows that there is a strong, postive relationship between x and y where one variable increase, the other will increase as well.   
+
+
+
+
+

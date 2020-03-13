@@ -1,0 +1,20 @@
+1. The definition of hacking p-values is not lieing to ourself which means we should not "design a experiment to get the conclusion we want"(Lecture notes Hacking p-values). Since our data is randomly generated and tested with 7 different sorting algorithm, we never manipulate the data. Therefore, I do not believe we are p-hacking.
+
+2. By counting the groups1/2 in posthoc table, we need to do 21 comparison between all 7 sorting algorithm.
+   Since we are measuring with significance level of 0.05, our confidence level is 95%. With 21 comparison, we have 0.95^21 = 0.34056162628 chance to get all conclusions correct
+
+3.From the sorted table:
+partition_sort    0.007313
+qs1               0.009864
+qs5               0.013576
+merge1            0.013611
+qs4               0.014045
+qs2               0.014088
+qs3               0.014368
+
+
+Partition_sort is the fastest
+
+From posthoc table reject column
+We can not distinguishe between merge1 and qs5, and qs2 and qs4
+ 

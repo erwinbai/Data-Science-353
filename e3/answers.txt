@@ -1,0 +1,12 @@
+Q1  When smoothing the CPU temperature, do you think you got a better result with LOESS or Kalman smoothing? What differences did you notice? 
+
+	Kalman filter is better than lowess. From the graph we can see that both red and green line is really close to each other. However, Kalman filter takes in more consideration with more specfiy parameters. This allows us to take more information into account, which causes little spikes on top of lowess filter. The spikes is more accurate consider the small bias CPU data that exists. 
+
+Q2  In the GPX files, you might have also noticed other data about the observations: time stamp, course (heading in degrees from north, 0–360), speed (in m/s). How could those have been used to make a better prediction about the “next” latitude and longitude? [Aside: I tried, and it didn't help much. I think the values are calculated from the latitude/longitude by the app: they don't really add much new information.] 
+
+
+	I believe with data such as speed, course and timestamp, it will help us improve our predicition. For example, with specific timestamp combine with course, we can eliminate all other meaningless noise data since we can now know the specific direction with a given time that the user is traveling towards to.    
+
+
+
+
