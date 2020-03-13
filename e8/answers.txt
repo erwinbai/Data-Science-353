@@ -1,0 +1,17 @@
+1.Which model did the best for the colour-prediction task? Can you give a theory about why? Do you have any theory about why RGB/LAB/HSV worked better for different models?
+
+kNN and Random Forest classifier have really simialr prediciton score, but kNN still end up with a better score most of the time. My theory is I am not picking a good estimator and depth for random forest classifier but I did try to make the predicted graph looking similar to the inputs graph
+
+From https://www.quora.com/What-are-the-differences-between-RGB-HSV-and-CIE-Lab#targetText=In%20the%20RGB%20cube%2C%20the,we%20have%20the%20HSV%20space.
+
+answer by Rakshit Kothari, he give a general idea that RGB colour are made up of the three primary colour and HSV is more on how we interpret colours such as more Saturation, Less value, ok Hue, and LAB are using sensitivity and wavelength
+
+This means that if a models works on colour input(how much red, green and blue is in a single value) it will have a better result than a model that focus on saturation and brightness to identify the colour or a model focus on radiation pattern using LAB colour
+ 
+
+2.Have a look at the cities in your validation data where the weather model makes the wrong prediction. Do you feel like the model is making reasonable mistakes? Can you think of any weather features that we could potentially add to make better predictions?
+
+Everytime I run, the result changes a little but not too much. I feel like since we are making a prediction, these small changes are reasonable and overall we are on the right track. However, if we do have othe weather features such as wind speed, humidity, air pressure, visibiliy or wind gust(idea from https://www.theweathernetwork.com/ca/weather/british-columbia/burnaby)
+would generate a better predictions
+
+
