@@ -1,0 +1,12 @@
+    1. Where you did the same calculations with NumPy and Pandas, which did you find easier to work with? Which code do you think is easier to read?
+
+	After understanding Numpy and got the answer, it was a little hard to work with Pandas since I need another method to solve the question. It is like finally understanding a language but suddenly reqiures to translate another launage right away. However I do find Pandas easier to read since it is more "cleaner".
+
+    2. What were the running times of the two pivot_months_* functions? How can you explain the difference? 
+	
+	the running time for piovt_months_pandas(data) is 9.81 ms ± 18.2 µs per loop (mean ± std. dev. of 7 runs, 100 loops each)
+	the running time for piovt_months_loops(data) is 539 ms ± 1.92 ms per loop (mean ± std. dev. of 7 runs, 1 loop each)
+
+	Clearly we can see that without loops, the data runs alot faster. 
+	If we do not use loop, it helps with the optimization of the execution time of a program since we remove or reduce iterations. it also speed are program by eliminating loop control instruction and loop test instrcutions. If some statement are not dependent to each other in a loop, they can also run parallel to each other. 
+
